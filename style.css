@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#f0ffff;
+  border: 3px solid #000;
+}
+
+.start{
+  background:#fff;
+  padding: 8px 20px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  font-size: 1.2rem;
+  font-weight: bold;
+  color:darkblue;
+  cursor: pointer;
+}
+
+.rules{
+  background:#fff;
+  padding: 20px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  border-radius: 8px;
+  line-height: 2.5rem;
+  display: none;
+}
+
+hr{
+  margin: 5px 0px;
+  color: lightgray;
+}
+
+.btn{
+  padding: 8px 15px;
+  border: 1px solid darkblue;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-wrap{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 5px 0px 5px;
+}
+
+span{
+  color: darkblue;
+  font-weight: bold;
+}
+
+.btn-continue{
+  background: darkblue;
+  color: #fff;
+}
+
+.quiz-tab{
+  background:#fff;
+  padding: 20px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  border-radius: 8px;
+  line-height: 2.5rem;
+  display: none;
+}
+
+.quiz-header{
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 8px 5px;
+}
+
+.answer{
+  padding: 5px 10px;
+  background: lightblue;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  transition: all .3s ease-out;
+}
+
+.answer-correct{
+  background: lightgreen;
+  padding: 5px 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.answer-wrong{
+  padding: 5px 10px;
+  background: lightpink;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.quiz-body h2{
+  margin: 3px;
+}
+
+.time-stamp{
+  background: lightblue;
+  border-radius: 4px;
+  padding: 0px 8px;
+}
+
+.quiz-body{
+  padding: 8px 0px;
+}
+
+.time{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: darkblue;
+  padding: 3px;
+  color: white;
+  border-radius: 4px;
+  width: 32px;
+  height: 25px;
+}
+
+.nxt-wrap{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 5px;
+}
+
+.nxtQuiz{
+  padding: 8px 15px;
+  border: none;
+  background: darkblue;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+.replay-btn, .quit-btn{
+  padding: 6px 15px;
+  border-radius: 4px;
+  border: 1px solid darkblue;
+  cursor: pointer;
+}
+
+.replay-btn{
+  background: darkblue;
+  color: #fff;
+}
+
+.quit-btn{
+  background: #fff;
+  color: darkblue; 
+}
+
+.done{
+  background:#fff;
+  padding: 20px 40px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  border-radius: 8px;
+  line-height: 2.5rem;
+  text-align: center;
+  display: none;
+}
+
+.icon-wrap{
+  display: grid;
+  place-items: center;
+}
+
+.change-my-color {
+  fill: green;
+}
+
+.done-btn-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+button{
+  font-family: inherit;
+  transition: all .3s ease-out;
+}
+
+button:hover{
+  transform: scale(0.98);
+}
+
+.icon {
+  font-size: 1rem;
+  width: 20px;
+  height: 20px;
+  float: right;
+  position: relative;
+  top: 9px;
+}
+
+.correct{
+  fill: green;
+}
+
+.times{
+  fill: red;
+  color: #000;
+}
